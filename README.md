@@ -1,1 +1,4 @@
-# R-script to Calculate Covid-19 R Number Based on RKI Nowcast Date
+# R-script to Calculate Covid-19 R Number Based on RKI Nowcast Data
+The [Robert Koch Institute](https://www.rki.de) in Germany is releasing the most current forecasting of infection rate development of SARS-CoV-2-cases using a tool they call ["Nowcasting"](https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/Projekte_RKI/Nowcasting.html). They have also released a [paper](https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/Projekte_RKI/R-Wert-Erlaeuterung.pdf?__blob=publicationFile) in which they publish the [R](https://www.r-project.org/)-code to download the most current data stored in an Excel file and to plot both, the R value itself and the 7-day R-value forecasting estimate.
+
+I was running into trouble simply trying to run the code in my R set-up, so I made these scripts available for people, who were also struggling to plot the numbers themselves. There is a German and an English version. Hope you find it useful.
