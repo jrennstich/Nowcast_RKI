@@ -8,9 +8,9 @@
 # You need to take several steps first to ensure you can actually download the data, calculate the scores and the plot them.
 
 
-#####################
-# REQUIRED PACKAGES #
-#####################
+######################################
+# REQUIRED PACKAGES - FIRST TIME RUN #
+######################################
 
 # OPTION 1
 # If you know, that you do are missing ALL of the required packages:
@@ -42,6 +42,22 @@ library(ggplot2)
 library(scales)
 #install.packages(scales)
 #library(scales)
+
+
+# Next time you want to download the latest data and plot them, you can start directly here:
+
+
+#####################
+# REQUIRED PACKAGES #
+#####################
+
+# Load necessary packages
+library(xlsx)
+library(stringr)
+library(dplyr)
+library(ggplot2)
+library(scales)
+
 
 ####################
 # GETTING THE DATA #
