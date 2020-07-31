@@ -1,14 +1,22 @@
-# Reproducible Nowcast R-Script for R-Factor in Germany from RKI
+# Reproducible Nowcast R-Script für R-Faktor in Deutschland, berechnet vom RKI
 
-# Necessary libraries
+# Überprüfen Sie, ob Sie alle notwendigen R-Pakete haben - diese sind in der u.
+# stehenden Zeile aufgeführt. (Wie geht das? 
+
+
+
+# Necessary packages
 install.packages("xlsx", "stringr", "dplyr", "ggplot2", "scales")
 
+# Wenn Sie eine Fehlermeldung über ein spezifisches Package bekommen
+# löschen Sie die "#" Zeichen vorne (Kommentare in R beginnen mit einem #) die 
+# Zeilen unterhalb der Überschrift # Notwendige Libraries laden
 # If you get an error installing a specific package, uncomment (i.e., delete the '#') 
 # the line below that starts with install.packages
 # CAREFUL! This will (re)install all the packages listed here! This takes some time
 # install.packages(pkgs = c("xlsx", "stringr", "dplyr", "ggplot2", "scales"), dependencies=TRUE)
 
-# Load necessary libraries
+# Notwendige Libraries laden
 library(xlsx)
 library(stringr)
 library(dplyr)
